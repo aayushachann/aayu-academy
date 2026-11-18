@@ -1,15 +1,37 @@
 # AayuAcademy (React + Vite + Express)
 
-## First time
-    npm install
+AayuAcademy is an online learning platform frontend built with React, Vite, and Express.
 
-## Develop (hot reload, http://localhost:5173)
-    npm run dev
+## First-Time Setup
 
-## Production (Express serves the built app, http://localhost:3000)
-    npm run build
-    npm start
+Install the project dependencies:
 
-## Images
-Copy your old `images/` folder into `public/images/` (keep the sub-folders:
-`courses/`, `home/`, `placeholder/`). Missing pictures fall back to the placeholder.
+```bash
+npm install
+```
+
+## Development
+
+Start the development server with hot reload:
+
+```bash
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+## Production
+
+Build the application:
+
+```bash
+npm run build
+```
+
+Start the Express server:
+
+```bash
+npm start
+```
+
+Open http://localhost:3000 in your browser.
